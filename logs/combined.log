@@ -1,0 +1,4 @@
+{"level":"info","message":"date[clf] GRAPHQL-QUERY query GetProvince($provinceId:ID!$districtId:ID!){getProvince{id name createAt}getDistrict(provinceId:$provinceId){id name}getWarn(districtId:$districtId){id name}} -200 - 18.968 ms\n"}
+{"level":"info","message":"date[clf] GRAPHQL-QUERY query GetProvince($provinceId:ID!$districtId:ID!){getProvince{id name createAt}getDistrict(provinceId:$provinceId){id name}getWarn(districtId:$districtId){id name}} -200 - 20.880 ms\n"}
+[2022-04-10 10:47:28][[32minfo[39m] GRAPHQL-QUERY query GetProvince($provinceId:ID!$districtId:ID!){getProvince{id name createAt}getDistrict(provinceId:$provinceId){id name}getWarn(districtId:$districtId){id name}} -200 - 10.080 ms
+
