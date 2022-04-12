@@ -1,12 +1,10 @@
-// import run from './exam';
-// run();
+import { GraphqlServer } from './helpers/apollo';
+import app, { startExpressServer } from "./helpers/express";
 
-import app, { startExpressServer } from "./express";
-import graphqlServer from './apollo';
 
 startExpressServer();
 
 
-graphqlServer.start().then(() => {
-    graphqlServer.applyMiddleware({app});
-});
+const graphqlServer = new GraphqlServer(app);
+
+graphqlServer.start();
