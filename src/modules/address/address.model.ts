@@ -10,4 +10,4 @@ const addressSchema = new Schema({
 
 });
 
-export const AddressSchema = Mongo.model("Address", addressSchema);
+export const AddressModel = Mongo.model("Address", addressSchema);

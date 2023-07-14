@@ -12,17 +12,7 @@ export default {
         }
     `,
     resolvers: {
-        Query: {
-            getProvince: async (root: any, args: any, context: any) => {
-                return [{
-                    id: 1,
-                    name: 'Hà nội'
-                }]
-            },
-        },
-        Province: {
-            createAt: () => new Date().toISOString(),
-        }
+        
     }
 }
 

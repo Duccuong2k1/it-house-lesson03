@@ -2,3 +2,42 @@
 {"level":"info","message":"date[clf] GRAPHQL-QUERY query GetProvince($provinceId:ID!$districtId:ID!){getProvince{id name createAt}getDistrict(provinceId:$provinceId){id name}getWarn(districtId:$districtId){id name}} -200 - 20.880 ms\n"}
 [2022-04-10 10:47:28][[32minfo[39m] GRAPHQL-QUERY query GetProvince($provinceId:ID!$districtId:ID!){getProvince{id name createAt}getDistrict(provinceId:$provinceId){id name}getWarn(districtId:$districtId){id name}} -200 - 10.080 ms
 
+[2023-07-07 15:26:55][[32minfo[39m] GRAPHQL-QUERY - -200 - 1.648 ms
+
+[2023-07-14 10:01:29][[32minfo[39m] GRAPHQL-QUERY - -200 - 2.769 ms
+
+[2023-07-14 10:02:00][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct{getAllProduct{id name}} -200 - 3.158 ms
+
+[2023-07-14 10:04:26][[32minfo[39m] GRAPHQL-QUERY query GetDistrict($provinceId:ID!){getDistrict(provinceId:$provinceId){id name}} -400 - 22.975 ms
+
+[2023-07-14 10:04:38][[32minfo[39m] GRAPHQL-QUERY query GetDistrict{getProvince{id name createAt}} -200 - 5.453 ms
+
+[2023-07-14 14:14:44][[32minfo[39m] GRAPHQL-QUERY query GetProvince{getProvince{id name createAt}} -200 - 3.866 ms
+
+[2023-07-14 14:15:30][[32minfo[39m] GRAPHQL-QUERY query GetProvince{getProvince{id name createAt}} -200 - 287.453 ms
+
+[2023-07-14 14:25:46][[32minfo[39m] GRAPHQL-QUERY query GetDistrict($provinceId:ID!){getDistrict(provinceId:$provinceId){id name}} -200 - 276.663 ms
+
+[2023-07-14 14:26:01][[32minfo[39m] GRAPHQL-QUERY query GetDistrict($provinceId:ID!){getDistrict(provinceId:$provinceId){id name}} -200 - 2683.236 ms
+
+[2023-07-14 14:29:40][[32minfo[39m] GRAPHQL-QUERY query GetWarn($districtId:ID!){getWarn(districtId:$districtId){id name}} -200 - 291.088 ms
+
+[2023-07-14 15:47:02][[32minfo[39m] redis connected
+[2023-07-14 15:47:18][[32minfo[39m] Get province from db
+[2023-07-14 15:47:18][[32minfo[39m] GRAPHQL-QUERY query GetProvince{getProvince{id name createAt}} -200 - 289.176 ms
+
+[2023-07-14 15:47:19][[32minfo[39m] Get province from redis
+[2023-07-14 15:47:19][[32minfo[39m] GRAPHQL-QUERY query GetProvince{getProvince{id name createAt}} -200 - 4.876 ms
+
+[2023-07-14 15:47:20][[32minfo[39m] Get province from redis
+[2023-07-14 15:47:20][[32minfo[39m] GRAPHQL-QUERY query GetProvince{getProvince{id name createAt}} -200 - 6.303 ms
+
+[2023-07-14 15:47:21][[32minfo[39m] Get province from redis
+[2023-07-14 15:47:21][[32minfo[39m] GRAPHQL-QUERY query GetProvince{getProvince{id name createAt}} -200 - 20.614 ms
+
+[2023-07-14 15:47:22][[32minfo[39m] Get province from redis
+[2023-07-14 15:47:22][[32minfo[39m] GRAPHQL-QUERY query GetProvince{getProvince{id name createAt}} -200 - 7.239 ms
+
+[2023-07-14 16:05:40][[32minfo[39m] redis connected
+[2023-07-14 16:07:49][[32minfo[39m] redis connected
+[2023-07-14 16:10:19][[32minfo[39m] redis connected
