@@ -11,8 +11,6 @@ export default {
             createAt:DateTime
         }
     `,
-    resolvers: {
-        
-    }
+    
 }
 
