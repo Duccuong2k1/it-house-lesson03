@@ -180,3 +180,152 @@ AggregateError
 AggregateError
     at internalConnectMultiple (node:net:1102:18)
     at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 11:06:16][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 11:06:34][[32minfo[39m] GRAPHQL-QUERY - -200 - 1.719 ms
+
+[2023-07-17 11:07:02][[32minfo[39m] GRAPHQL-QUERY query GetAllUser{getAllUser{id createdAt updatedAt username name phone role email}} -200 - 261.690 ms
+
+[2023-07-17 11:07:08][[32minfo[39m] GRAPHQL-QUERY query GetOneUser($getOneUserId:ID!){getOneUser(id:$getOneUserId){id name phone}} -200 - 260.081 ms
+
+[2023-07-17 11:16:53][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 11:17:34][[32minfo[39m] GRAPHQL-QUERY mutation UpdateUser($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){email id name}} -200 - 633.870 ms
+
+[2023-07-17 11:17:44][[32minfo[39m] GRAPHQL-QUERY mutation UpdateUser($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){email id name}} -200 - 503.558 ms
+
+[2023-07-17 11:17:48][[32minfo[39m] GRAPHQL-QUERY query GetOneUser($getOneUserId:ID!){getOneUser(id:$getOneUserId){id name phone}} -200 - 255.007 ms
+
+[2023-07-17 11:18:34][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 11:18:39][[32minfo[39m] GRAPHQL-QUERY query GetAllUser{getAllUser{id createdAt updatedAt username name phone role email}} -200 - 2565.365 ms
+
+[2023-07-17 11:18:42][[32minfo[39m] GRAPHQL-QUERY mutation UpdateUser($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){email id name}} -200 - 505.555 ms
+
+[2023-07-17 11:18:44][[32minfo[39m] GRAPHQL-QUERY query GetOneUser($getOneUserId:ID!){getOneUser(id:$getOneUserId){id name phone}} -200 - 314.903 ms
+
+[2023-07-17 11:19:00][[32minfo[39m] GRAPHQL-QUERY mutation UpdateUser($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){email id name}} -200 - 258.393 ms
+
+[2023-07-17 11:19:09][[32minfo[39m] GRAPHQL-QUERY mutation UpdateUser($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){email id name}} -200 - 488.502 ms
+
+[2023-07-17 11:19:16][[32minfo[39m] GRAPHQL-QUERY mutation UpdateUser($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){email id name phone role}} -200 - 491.086 ms
+
+[2023-07-17 11:23:07][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 11:23:31][[32minfo[39m] GRAPHQL-QUERY mutation DeleteUser($deleteUserId:ID!){deleteUser(id:$deleteUserId)} -200 - 264.373 ms
+
+[2023-07-17 11:23:34][[32minfo[39m] GRAPHQL-QUERY query GetAllUser{getAllUser{id createdAt updatedAt username name phone role email}} -200 - 252.217 ms
+
+[2023-07-17 11:47:00][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 11:52:52][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 11:54:05][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 11:54:50][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 11:55:44][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 263.088 ms
+
+[2023-07-17 11:55:48][[32minfo[39m] GRAPHQL-QUERY mutation CreateUser($data:CreateUserInput!){createUser(data:$data){id createdAt updatedAt username name phone role email}} -200 - 517.836 ms
+
+[2023-07-17 11:56:00][[32minfo[39m] GRAPHQL-QUERY mutation CreateUser($data:CreateUserInput!){createUser(data:$data){id createdAt updatedAt username name phone role email}} -200 - 497.394 ms
+
+[2023-07-17 11:56:02][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 357.721 ms
+
+[2023-07-17 11:56:10][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 249.672 ms
+
+[2023-07-17 11:56:21][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 249.796 ms
+
+[2023-07-17 11:56:27][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 300.365 ms
+
+[2023-07-17 11:56:31][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 250.383 ms
+
+[2023-07-17 11:56:36][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 263.322 ms
+
+[2023-07-17 11:56:45][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 301.996 ms
+
+[2023-07-17 11:56:50][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 251.217 ms
+
+[2023-07-17 11:57:29][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 11:58:00][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 942.713 ms
+
+[2023-07-17 11:58:05][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 372.586 ms
+
+[2023-07-17 11:58:13][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 410.341 ms
+
+[2023-07-17 11:58:17][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 351.734 ms
+
+[2023-07-17 11:58:23][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 344.505 ms
+
+[2023-07-17 11:58:29][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 402.252 ms
+
+[2023-07-17 11:58:32][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 344.522 ms
+
+[2023-07-17 11:58:37][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 345.078 ms
+
+[2023-07-17 11:58:44][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}}} -200 - 379.865 ms
+
+[2023-07-17 11:59:23][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 247.440 ms
+
+[2023-07-17 11:59:29][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 246.474 ms
+
+[2023-07-17 12:03:10][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 246.103 ms
+
+[2023-07-17 12:03:16][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 244.837 ms
+
+[2023-07-17 13:45:43][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 13:45:50][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 251.203 ms
+
+[2023-07-17 13:46:00][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 287.093 ms
+
+[2023-07-17 13:46:04][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 244.591 ms
+
+[2023-07-17 13:52:23][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 13:52:26][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 13:52:34][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-17 13:52:41][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 359.395 ms
+

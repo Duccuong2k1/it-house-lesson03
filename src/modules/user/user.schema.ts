@@ -2,9 +2,11 @@ import { gql } from "apollo-server-express";
 import { UserRole } from "./user.model";
 
 export default gql`
+    
+
     extend type Query {
-        getAllUser: [User]
-        getOneUser: User
+        getAllUser(q:QueryInput): UserPageData
+        getOneUser(id:ID!): User
     }
 
     # extend type Mutation {
@@ -19,6 +21,10 @@ export default gql`
         deleteUser(id: ID!): Boolean
     }
 
+    type UserPageData{
+        data:[User]
+        pagination:Pagination
+    }
     type User {
         id:ID!
         createdAt:DateTime

@@ -11,7 +11,8 @@
     "clear": "rimraf dist",
     "start": "node dist/index.js",
     "ts": "ts-node",
-    "test-jest": "jest"
+    "test-jest": "jest",
+    "hygen:entity":"hygen generate entity"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
     "@types/node": "^17.0.23",
     "@types/password-hash": "^1.2.21",
     "graphql-type-datetime": "^0.2.4",
+    "hygen": "^6.2.11",
     "lodash": "^4.17.21",
     "nodemon": "^2.0.15",
     "rimraf": "^3.0.2",

@@ -29,6 +29,28 @@ export class GraphqlServer {
         type Subscription {
           _empty: String
         }
+
+        input QueryInput {
+          "Số phần tử trên trang"
+          limit: Int
+          "Số trang"
+          page: Int
+          "Sắp xếp"
+          order: Mixed
+          "bộ lọc"
+          filter: Mixed
+          "tìm kiếm"
+          search: String
+        }
+        type Pagination {
+          "tổng số phần từ "
+          total: Int
+          "số phần tử trên trang"
+          limit: Int
+
+          "số trang"
+          page: Int
+        }
       `,
     ];
     let resolvers: any = {
@@ -50,7 +72,6 @@ export class GraphqlServer {
     const graphql = await loadGraphql();
     typeDefs = typeDefs.concat(graphql.typedefs);
     resolvers = _.merge(resolvers, graphql.resolvers);
-
 
     const server = new ApolloServer({
       introspection: true,
