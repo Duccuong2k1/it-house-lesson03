@@ -12,7 +12,7 @@
     "start": "node dist/index.js",
     "ts": "ts-node",
     "test-jest": "jest",
-    "hygen:entity":"hygen generate entity"
+    "hygen:entity": "hygen generate entity"
   },
   "keywords": [],
   "author": "",
@@ -39,10 +39,11 @@
     "apollo-server-express": "^3.6.7",
     "autoloader-ts": "^2.2.1",
     "body-parser": "^1.20.0",
-    "config": "^3.3.7",
+    "config": "^3.3.9",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "firebase-admin": "^11.10.1",
     "graphql": "^16.3.0",
     "jest": "^29.6.1",
     "json-beautify": "^1.1.1",
