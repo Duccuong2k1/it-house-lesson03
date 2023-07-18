@@ -6,7 +6,7 @@ module.exports = {
    firebase:{
     serviceAccount:{
         __name:"FIREBASE_SERVICE_ACCOUNT",
-        __format:json
+        __format:"json"
     }
    },
     redis:{
