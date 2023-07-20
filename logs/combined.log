@@ -746,3 +746,13 @@ AggregateError
 
 [2023-07-20 16:28:43][[32minfo[39m] GRAPHQL-QUERY mutation UpdateUser($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){email id name phone role}} -200 - 520.285 ms
 
+[2023-07-20 16:43:56][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-20 16:44:02][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
