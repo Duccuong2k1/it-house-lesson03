@@ -1,10 +1,16 @@
 import { validateEmail } from "../../helpers/function/string";
-import { UserModel } from "./user.model";
+import { Context } from "../../helpers/graphql/context";
+import { UserModel, UserRole } from "./user.model";
 import passwordHash from "password-hash";
 export default {
   Query: {
-    getAllUser: async (root: any, args: any, context: any) => {
+    getAllUser: async (root: any, args: any, context: Context) => {
       // return await UserModel.find({});
+   
+      // check permission user if not logged in then throw err 
+      //  and check role user not is admin then throw err
+      context.auth(["ADMIN","USER"])
+     
       const {q} = args;
       return await fetch(q)
     },
@@ -21,7 +27,9 @@ export default {
   },
 
   Mutation: {
-    createUser: async (root: any, args: any, context: any) => {
+    createUser: async (root: any, args: any, context: Context) => {
+      context.auth(["ADMIN"]).grant(["user.create"])
+
       const { data } = args;
 
       const { username, name, email, phone, password, role } = data;
@@ -49,7 +57,9 @@ export default {
       return user;
     },
 
-    updateUser: async (root: any, args: any, context: any) => {
+    updateUser: async (root: any, args: any, context: Context) => {
+      context.auth(["ADMIN"]).grant(["user.update"])
+
       const { id, data } = args;
       const { email, name, phone } = data;
 
@@ -74,7 +84,9 @@ export default {
         { new: true }
       );
     },
-    deleteUser: async (root: any, args: any, context: any) => {
+    deleteUser: async (root: any, args: any, context: Context) => {
+      context.auth(["ADMIN"]).grant(["user.delete"])
+
       const {id} = args;
       // check user is exist
       const user = UserModel.findById(id);

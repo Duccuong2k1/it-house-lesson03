@@ -9,8 +9,9 @@ import {
   loadGraphql,
   loadGraphqlResolvers,
   loadGraphqlSchemas,
-} from "./autoloader";
-import logger from "./logger";
+} from "../autoloader";
+import logger from "../logger";
+import { Context } from "./context";
 
 export class GraphqlServer {
   constructor(public app: Application) {}
@@ -77,6 +78,10 @@ export class GraphqlServer {
       introspection: true,
       typeDefs: typeDefs,
       resolvers: resolvers,
+      context:async({req}:{req:Request})=> {
+        const context = new Context({req});
+        return context;
+      }
     });
 
     await server.start();

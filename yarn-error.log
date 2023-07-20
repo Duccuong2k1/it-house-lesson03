@@ -1,0 +1,85 @@
+Arguments: 
+  /Users/cuong/.nvm/versions/node/v20.3.1/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/cuong/.nvm/versions/node/v20.3.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/cuong/.nvm/versions/node/v20.3.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/cuong/development/flutter/bin:/Applications/MAMP/bin/php/php7.4.33/bin:/Users/cuong/development/flutter/bin:/usr/local/bin:/Applications/MAMP/bin/php/php7.4.33/bin:/usr/local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.3.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/cuong/Desktop/it-house-lesson03/node_modules/@apollo/usage-reporting-protobuf'
+
+npm manifest: 
+  {
+    "name": "lesson3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "init": "tsc --init",
+      "dev": "nodemon",
+      "build": "npm run clear && tsc",
+      "clear": "rimraf dist",
+      "start": "node dist/index.js",
+      "ts": "ts-node",
+      "test-jest": "jest",
+      "hygen:entity": "hygen generate entity"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/config": "0.0.41",
+      "@types/cors": "^2.8.12",
+      "@types/express": "^4.17.13",
+      "@types/jsonwebtoken": "^8.5.8",
+      "@types/lodash": "^4.14.181",
+      "@types/morgan": "^1.9.3",
+      "@types/node": "^17.0.23",
+      "@types/password-hash": "^1.2.21",
+      "graphql-type-datetime": "^0.2.4",
+      "hygen": "^6.2.11",
+      "lodash": "^4.17.21",
+      "nodemon": "^2.0.15",
+      "rimraf": "^3.0.2",
+      "ts-node": "^10.7.0",
+      "typescript": "^4.6.3"
+    },
+    "dependencies": {
+      "@types/jest": "^29.5.3",
+      "apollo-server-express": "^3.6.7",
+      "autoloader-ts": "^2.2.1",
+      "body-parser": "^1.20.0",
+      "config": "^3.3.9",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.0",
+      "express": "^4.17.3",
+      "firebase-admin": "^11.10.1",
+      "graphql": "^16.3.0",
+      "jest": "^29.6.1",
+      "json-beautify": "^1.1.1",
+      "jsonwebtoken": "^8.5.1",
+      "minify-graphql-loader": "^1.0.2",
+      "moment": "^2.29.2",
+      "mongoose": "^6.2.10",
+      "morgan": "^1.10.0",
+      "password-hash": "^1.2.2",
+      "redis": "^4.6.7",
+      "ts-jest": "^29.1.1",
+      "winston": "^3.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
