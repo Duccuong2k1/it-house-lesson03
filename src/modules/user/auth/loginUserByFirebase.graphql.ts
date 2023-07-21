@@ -19,7 +19,6 @@ export default {
         const { accessToken } = args;
 
         const decodedToken = await firebase.auth().verifyIdToken(accessToken);
-        console.log("decode",decodedToken?.firebase.sign_in_provider)
         // step 1 : check user has uid in database
         let user = await UserModel.findOne({ uid: decodedToken?.uid });
 

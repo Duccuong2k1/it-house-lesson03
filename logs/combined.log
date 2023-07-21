@@ -756,3 +756,40 @@ AggregateError
 AggregateError
     at internalConnectMultiple (node:net:1102:18)
     at afterConnectMultiple (node:net:1620:5)
+[2023-07-20 16:46:15][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-20 16:46:40][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-20 16:46:46][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 267.452 ms
+
+[2023-07-20 16:47:20][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-20 16:47:40][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 369.534 ms
+
+[2023-07-21 11:02:23][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-21 11:02:34][[32minfo[39m] GRAPHQL-QUERY - -200 - 2.395 ms
+
+[2023-07-21 11:04:11][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 269.494 ms
+
+[2023-07-21 11:05:07][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-21 11:05:23][[32minfo[39m] GRAPHQL-QUERY mutation UpdateUser($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){email id name phone role}} -200 - 275.482 ms
+
+[2023-07-21 11:05:26][[32minfo[39m] GRAPHQL-QUERY query GetAllUser($q:QueryInput){getAllUser(q:$q){data{id createdAt updatedAt username name phone role email}pagination{total limit page}}} -200 - 264.063 ms
+
