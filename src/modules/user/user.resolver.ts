@@ -2,7 +2,7 @@ import { validateEmail } from "../../helpers/function/string";
 import { Context } from "../../helpers/graphql/context";
 import { UserModel, UserRole } from "./user.model";
 import passwordHash from "password-hash";
-import { userService } from "./userService";
+import { userService } from "./user.service";
 export default {
   Query: {
     getAllUser: async (root: any, args: any, context: Context) => {

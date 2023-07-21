@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/cuong/.nvm/versions/node/v20.3.1/bin/node /usr/local/bin/yarn install
+  /Users/cuong/.nvm/versions/node/v20.3.1/bin/node /usr/local/bin/yarn add nanoid --save
 
 PATH: 
   /Users/cuong/.nvm/versions/node/v20.3.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/cuong/.nvm/versions/node/v20.3.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/cuong/development/flutter/bin:/Applications/MAMP/bin/php/php7.4.33/bin:/Users/cuong/development/flutter/bin:/usr/local/bin:/Applications/MAMP/bin/php/php7.4.33/bin:/usr/local/bin

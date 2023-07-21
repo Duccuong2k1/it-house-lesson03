@@ -2,6 +2,7 @@ import { Request } from "express";
 import Token from "../token";
 import _ from "lodash";
 import { TokenExpiredError } from "jsonwebtoken";
+import { UserRole } from "../../modules/user/user.model";
 
 export class Context {
   public req: Request;
@@ -35,6 +36,18 @@ export class Context {
     return _.get(this.token, "payload.scopes", []);
   }
 
+  get isAdmin(){;
+    if(!this.token) return false;
+    if(!this.isAuth) return false;
+
+    return this.token?.role === UserRole.ADMIN
+  }
+  get isUser(){;
+    if(!this.token) return false;
+    if(!this.isAuth) return false;
+
+    return this.token?.role === UserRole.USER
+  }
   auth(roles: string[]) {
     if (!this.isAuth) throw Error("UnAuthorized");
     if (!this.token) throw Error("UnAuthorized");
@@ -48,4 +61,5 @@ export class Context {
       throw Error("Permission Denied");
     return this;
   }
+  
 }

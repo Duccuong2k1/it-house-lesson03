@@ -1,7 +1,7 @@
 import _ from "lodash";
 import { BaseService } from "./baseService";
 import { Model, Types } from "mongoose";
-export type IQueryInput = {
+export type QueryInput = {
   limit?: number;
   page?: number;
   order?: any;
@@ -25,7 +25,7 @@ export class CrudService<T> extends BaseService {
     return doc;
   }
 
-  async fetch(queryInput: IQueryInput, select?: string) {
+  async fetch(queryInput: QueryInput, select?: string) {
     const limit = queryInput.limit || 10;
     const skip = ((queryInput.page || 1) - 1) * limit || 0;
     const order = queryInput.order;
