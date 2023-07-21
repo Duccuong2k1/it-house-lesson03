@@ -1,5 +1,5 @@
 ---
-to: <%= h.dir(name) %>/ <%= h.name(name,true) %>.model.ts
+to: src/modules/<%= h.inflection.camelize(name,true) %>/<%= h.inflection.camelize(name, true) %>.model.ts
 
 ---
 
@@ -8,17 +8,13 @@ import { BaseDocument } from "../../base/baseModel";
 import { Mongo } from "../../helpers/mongo";
 
 
-export type <%= h.name(name) %> = BaseDocument & {
- 
+export type <%= h.inflection.camelize(name) %> = BaseDocument & {
   name?: string;
- 
 };
 
-const <%= h.dir(name,true) %>Schema = new Schema(
+const <%= h.inflection.camelize(name, true) %>Schema = new Schema(
   {
-   
-    name: { type: String, required: true },
-
+    name: { type: String ,required: true},
   },
   {
     timestamps: true,
@@ -27,4 +23,4 @@ const <%= h.dir(name,true) %>Schema = new Schema(
 
 
 
-export const <%= h.dir(name) %>Model = Mongo.model<<%= h.dir(name) %>>("<%= h.dir(name) %>", <%= h.dir(name,true) %>Schema);
+export const <%= h.inflection.camelize(name) %>Model = Mongo.model<<%= h.inflection.camelize(name) %>>("<%= h.inflection.camelize(name) %>", <%= h.inflection.camelize(name, true) %>Schema);
