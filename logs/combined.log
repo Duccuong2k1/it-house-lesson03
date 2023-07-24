@@ -1134,3 +1134,511 @@ AggregateError
 AggregateError
     at internalConnectMultiple (node:net:1102:18)
     at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:06:23][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:07:18][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:07:57][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 273.268 ms
+
+[2023-07-24 15:07:59][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 256.314 ms
+
+[2023-07-24 15:08:00][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 257.000 ms
+
+[2023-07-24 15:08:01][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 264.888 ms
+
+[2023-07-24 15:08:02][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 254.499 ms
+
+[2023-07-24 15:08:02][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 259.703 ms
+
+[2023-07-24 15:08:03][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 248.427 ms
+
+[2023-07-24 15:08:03][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 257.392 ms
+
+[2023-07-24 15:08:04][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 256.522 ms
+
+[2023-07-24 15:08:05][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 255.454 ms
+
+[2023-07-24 15:08:06][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 259.379 ms
+
+[2023-07-24 15:08:12][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 261.476 ms
+
+[2023-07-24 15:08:20][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 256.714 ms
+
+[2023-07-24 15:08:23][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name}} -200 - 256.433 ms
+
+[2023-07-24 15:08:25][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 256.919 ms
+
+[2023-07-24 15:11:15][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:21:33][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:22:15][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:22:23][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:24:02][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:24:10][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:24:49][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:25:25][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:25:58][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:26:04][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:26:16][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:33:24][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:35:03][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:35:17][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:38:22][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:41:11][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:41:22][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:41:55][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:43:33][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:44:00][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:44:13][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:44:29][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:44:35][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:45:51][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:46:03][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:47:41][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:48:05][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:49:08][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:50:09][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:50:23][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:50:48][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:51:01][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:51:13][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:51:18][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:52:23][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:53:03][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 4.230 ms
+
+[2023-07-24 15:53:26][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 271.073 ms
+
+[2023-07-24 15:53:41][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 1.534 ms
+
+[2023-07-24 15:53:52][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name like}} -200 - 271.503 ms
+
+[2023-07-24 15:54:25][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name like}} -200 - 254.006 ms
+
+[2023-07-24 15:54:35][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name like id sellPrice active}} -200 - 252.761 ms
+
+[2023-07-24 15:54:44][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name like id sellPrice active attributes{_id name required min max options{name price isDefault}}}} -200 - 256.336 ms
+
+[2023-07-24 15:54:57][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 1.296 ms
+
+[2023-07-24 15:54:58][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 0.404 ms
+
+[2023-07-24 15:54:59][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 0.398 ms
+
+[2023-07-24 15:55:02][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 257.847 ms
+
+[2023-07-24 15:55:09][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 262.453 ms
+
+[2023-07-24 15:56:35][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 1.083 ms
+
+[2023-07-24 15:57:53][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 15:59:40][[32minfo[39m] GRAPHQL-QUERY mutation LoginUserByFirebase($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{email id name role}token}} -200 - 551.060 ms
+
+[2023-07-24 15:59:56][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 2.789 ms
+
+[2023-07-24 16:00:02][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 272.169 ms
+
+[2023-07-24 16:00:09][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name like id sellPrice active attributes{_id name required min max options{name price isDefault}}}} -200 - 261.223 ms
+
+[2023-07-24 16:00:16][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name like id sellPrice active attributes{_id name required min max options{name price isDefault}}}} -200 - 259.452 ms
+
+[2023-07-24 16:01:19][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 16:01:27][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 4.195 ms
+
+[2023-07-24 16:02:28][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 16:03:24][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 16:03:38][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 2.950 ms
+
+[2023-07-24 16:03:39][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 1.701 ms
+
+[2023-07-24 16:03:39][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 0.843 ms
+
+[2023-07-24 16:03:39][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 1.284 ms
+
+[2023-07-24 16:03:58][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 16:04:09][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 269.569 ms
+
+[2023-07-24 16:04:12][[32minfo[39m] GRAPHQL-QUERY query GetOneProduct($getOneProductId:ID!){getOneProduct(id:$getOneProductId){view code name like id sellPrice active attributes{_id name required min max options{name price isDefault}}}} -200 - 258.578 ms
+
+[2023-07-24 16:04:15][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 2.788 ms
+
+[2023-07-24 16:07:06][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 1.042 ms
+
+[2023-07-24 16:07:07][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 1.253 ms
+
+[2023-07-24 16:07:08][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 1.349 ms
+
+[2023-07-24 16:07:08][[32minfo[39m] GRAPHQL-QUERY mutation LikeProduct($productId:ID!){likeProduct(productId:$productId)} -200 - 0.760 ms
+
+[2023-07-24 16:07:19][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 245.848 ms
+
+[2023-07-24 16:33:25][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 249.966 ms
+
+[2023-07-24 16:34:03][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 16:43:41][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 16:44:48][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 16:47:13][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:07:56][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 17.841 ms
+
+[2023-07-24 17:08:12][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 16.980 ms
+
+[2023-07-24 17:09:15][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:09:18][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 22.582 ms
+
+[2023-07-24 17:09:20][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 4.455 ms
+
+[2023-07-24 17:09:26][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:09:39][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:09:41][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 19.032 ms
+
+[2023-07-24 17:10:08][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 269.453 ms
+
+[2023-07-24 17:10:23][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 270.656 ms
+
+[2023-07-24 17:10:32][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 259.439 ms
+
+[2023-07-24 17:10:39][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 248.047 ms
+
+[2023-07-24 17:10:44][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 2.725 ms
+
+[2023-07-24 17:12:24][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:13:05][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 39.325 ms
+
+[2023-07-24 17:13:25][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory{getAllCategory{data{id name productIds}}} -200 - 5.679 ms
+
+[2023-07-24 17:13:41][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory{getAllCategory{data{id name productIds}}} -200 - 2.674 ms
+
+[2023-07-24 17:13:55][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory($q:QueryInput){getAllCategory(q:$q){data{id name productIds}}} -200 - 255.735 ms
+
+[2023-07-24 17:14:21][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:14:25][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory($q:QueryInput){getAllCategory(q:$q){data{id name productIds}}} -200 - 3348.204 ms
+
+[2023-07-24 17:15:12][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:15:15][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 577.955 ms
+
+[2023-07-24 17:15:22][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 251.316 ms
+
+[2023-07-24 17:15:27][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 254.230 ms
+
+[2023-07-24 17:15:30][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory($q:QueryInput){getAllCategory(q:$q){data{id name productIds}}} -200 - 257.622 ms
+
+[2023-07-24 17:15:51][[32minfo[39m] GRAPHQL-QUERY mutation CreateCategory($data:CreateCategoryInput!){createCategory(data:$data){id createdAt updatedAt name description active productIds priority}} -200 - 263.356 ms
+
+[2023-07-24 17:15:53][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory($q:QueryInput){getAllCategory(q:$q){data{id name productIds}}} -200 - 275.311 ms
+
+[2023-07-24 17:17:14][[32minfo[39m] GRAPHQL-QUERY mutation UpdateCategory($updateCategoryId:ID!$data:UpdateCategoryInput!){updateCategory(id:$updateCategoryId data:$data){id name productIds}} -200 - 5.796 ms
+
+[2023-07-24 17:17:30][[32minfo[39m] GRAPHQL-QUERY mutation UpdateCategory($updateCategoryId:ID!$data:UpdateCategoryInput!){updateCategory(id:$updateCategoryId data:$data){id name productIds}} -200 - 271.731 ms
+
+[2023-07-24 17:17:34][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory($q:QueryInput){getAllCategory(q:$q){data{id name productIds}}} -200 - 257.240 ms
+
+[2023-07-24 17:18:07][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 275.551 ms
+
+[2023-07-24 17:19:42][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:21:37][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:22:29][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:22:50][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:23:07][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:23:31][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:24:05][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:24:36][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:26:58][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:27:54][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:28:00][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:28:42][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:29:59][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:30:33][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:31:17][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:31:38][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:31:57][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like category{name productIds}attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 547.242 ms
+
+[2023-07-24 17:32:11][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory($q:QueryInput){getAllCategory(q:$q){data{id name productIds}}} -200 - 254.677 ms
+
+[2023-07-24 17:32:15][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like category{name productIds}attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 505.300 ms
+
+[2023-07-24 17:35:02][[32minfo[39m] GRAPHQL-QUERY mutation UpdateProduct($updateProductId:ID!$data:UpdateProductInput!){updateProduct(id:$updateProductId data:$data){name sellPrice categoryId}} -200 - 7.945 ms
+
+[2023-07-24 17:35:16][[32minfo[39m] GRAPHQL-QUERY mutation UpdateProduct($updateProductId:ID!$data:UpdateProductInput!){updateProduct(id:$updateProductId data:$data){name sellPrice categoryId}} -200 - 271.741 ms
+
+[2023-07-24 17:35:20][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like category{name productIds}attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 590.064 ms
+
+[2023-07-24 17:37:33][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:39:11][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-24 17:39:30][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory($q:QueryInput){getAllCategory(q:$q){data{id name productIds products{name sellPrice}}}} -200 - 539.442 ms
+

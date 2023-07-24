@@ -1,3 +1,4 @@
+
 import { gql } from "apollo-server-express";
 
 
@@ -39,6 +40,8 @@ export default gql`
         attributes: [Attribute]
         "trang thái"
         active: Boolean
+        "danh muc"
+        category:Category
        
     }
 
