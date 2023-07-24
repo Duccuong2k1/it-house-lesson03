@@ -36,7 +36,7 @@ export default gql`
         "lượt xem"
         view: Int
         "thuộc tính"
-        attributeIds: [Mixed]
+        attributes: [Attribute]
         "trang thái"
         active: Boolean
        
@@ -55,7 +55,7 @@ export default gql`
         "Id danh mục"
         categoryId: ID
         "thuộc tính"
-        attributeIds: [Mixed]
+        attributes: [AttributeInput]
         "trang thái"
         active: Boolean
         
@@ -73,7 +73,7 @@ export default gql`
         categoryId: ID
        
         "thuộc tính"
-        attributeIds: [Mixed]
+        attributes: [AttributeInput]
         "trang thái"
         active: Boolean
        

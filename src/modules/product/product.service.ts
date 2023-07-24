@@ -1,15 +1,16 @@
+// import { nanoid } from "nanoid";
 import { CrudService } from "../../base/crudService";
 import { Product, ProductModel } from "./product.model";
-import {nanoid} from "nanoid";
 
-class ProductService extends CrudService<Product>{
-    constructor(){
-        super(ProductModel);
-    }
+class ProductService extends CrudService<Product> {
+  constructor() {
+    super(ProductModel);
+  }
 
-    generateCode(){
-        return nanoid();
-    }
+  // generateCode() {
+  //   const code = nanoid()
+  //   return code;
+  // }
 }
 
-export const productService = new ProductService()
+export const productService = new ProductService();

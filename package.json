@@ -12,7 +12,8 @@
     "start": "node dist/index.js",
     "ts": "ts-node",
     "test-jest": "jest",
-    "hygen:entity": "hygen generate entity"
+    "hygen:entity": "hygen generate entity",
+    "hygen:graphql": "hygen generate graphql"
   },
   "keywords": [],
   "author": "",

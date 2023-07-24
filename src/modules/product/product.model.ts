@@ -1,6 +1,7 @@
 import { Document, Schema } from "mongoose";
 import { BaseDocument } from "../../base/baseModel";
 import { Mongo } from "../../helpers/mongo";
+import { Attribute, AttributeSchema } from "./attribute/attribute.graphql";
 
 export type Product = BaseDocument & {
   code?: string;
@@ -11,7 +12,7 @@ export type Product = BaseDocument & {
   images?: string[];
   categoryId?: string;
   view?: number;
-  attributeIds?: any[];
+  attributes?: Attribute[];
   active?:boolean;
 };
 
@@ -26,7 +27,7 @@ const productSchema = new Schema(
     categoryId: { type: Schema.Types.ObjectId },
     view: { type: Number, default: 0 },
     active: { type: Boolean, default: false },
-    attributeIds: { type: [Schema.Types.Mixed], default: [] },
+    attributes: { type: [AttributeSchema], default: [] },
   },
   {
     timestamps: true,
@@ -34,6 +35,7 @@ const productSchema = new Schema(
 );
 
 productSchema.index({ categoryId: 1 });
+productSchema.index({code:1},{unique:true})
 productSchema.index(
   { name: "text", code: "text" },
   { weights: { name: 10, code: 3 } }

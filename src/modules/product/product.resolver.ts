@@ -26,9 +26,9 @@ export default {
       context.auth(["ADMIN"])
 
       const { data } = args;
-      if(!data.code){
-        data.code = await productService.generateCode()
-      }
+      // if(!data.code){
+      //   data.code = await productService.generateCode()
+      // }
       const product = await productService.create(data);
 
       return product;
