@@ -4,6 +4,7 @@ import { Context } from "../../helpers/graphql/context";
 
 import { productService } from "./product.service";
 import { CategoryLoader, CategoryModel } from "../category/category.model";
+import { GraphqlServer } from "../../helpers/graphql/resolver";
 
 
 export default {
@@ -57,10 +58,6 @@ export default {
     },
   },
   Product: {
-    category: async (root: any, args: any, context: any) => {
-      const { categoryId } = root;
-      if(!categoryId) return null;
-      return await CategoryLoader.load(categoryId.toString());
-    },
+    category: GraphqlServer.load(CategoryLoader,"categoryId")
   },
 };

@@ -1730,3 +1730,64 @@ AggregateError
 
 [2023-07-25 17:27:14][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory($q:QueryInput){getAllCategory(q:$q){data{id name productIds products{name sellPrice category{name productIds products{name code category{id name products{name}}}}}}}} -200 - 278.564 ms
 
+[2023-07-25 17:40:22][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-25 17:42:42][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-25 17:43:18][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-25 17:43:39][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-25 17:43:55][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-25 17:50:16][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-25 17:50:34][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-25 17:52:50][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-25 17:52:54][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-25 17:53:01][[32minfo[39m] id
+{ "ids": [ "64be2b7faf6318c95df8b838", "64bdfdbf730cf07e288fea56" ] }
+[2023-07-25 17:53:01][[32minfo[39m] id
+{ "ids": [ "64be4e0f2109aa8198ce4c82" ] }
+[2023-07-25 17:53:02][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory($q:QueryInput){getAllCategory(q:$q){data{id name productIds products{name sellPrice category{name productIds products{name code category{id name products{name}}}}}}}} -200 - 761.084 ms
+
+[2023-07-25 17:53:06][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like category{name productIds}attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -- - - ms
+
+[2023-07-25 17:53:06][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like category{name productIds}attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -- - - ms
+
+[2023-07-25 17:53:07][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like category{name productIds}attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 242.614 ms
+
+[2023-07-25 17:53:08][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory($q:QueryInput){getAllCategory(q:$q){data{id name productIds products{name sellPrice category{name productIds products{name code category{id name products{name}}}}}}}} -- - - ms
+
+[2023-07-25 17:53:08][[32minfo[39m] GRAPHQL-QUERY query GetAllCategory($q:QueryInput){getAllCategory(q:$q){data{id name productIds products{name sellPrice category{name productIds products{name code category{id name products{name}}}}}}}} -200 - 250.193 ms
+

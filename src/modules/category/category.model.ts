@@ -4,6 +4,7 @@ import { Mongo } from "../../helpers/mongo";
 import DataLoader from "dataloader";
 import logger from "../../helpers/logger";
 import _ from "lodash";
+import { getModelDataLoader } from "../../helpers/dataloader";
 
 export type Category = BaseDocument & {
   name?: string;
@@ -32,13 +33,4 @@ categorySchema.index({ name: "text" }, { weights: { name: 10 } });
 
 export const CategoryModel = Mongo.model<Category>("Category", categorySchema);
 
-export const CategoryLoader = new DataLoader(
-  async (ids) => {
-    logger.info("id",{ids});
-    const products = await CategoryModel.find({ _id: { $in: ids } });
-    const keyById = _.keyBy(products, "_id");
-
-    return ids.map((id) => _.get(keyById, id as string, null));
-  },
-  { cache: true }
-);
+export const CategoryLoader = getModelDataLoader(CategoryModel)

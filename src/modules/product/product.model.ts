@@ -5,6 +5,7 @@ import { Attribute, AttributeSchema } from "./attribute/attribute.graphql";
 import DataLoader from "dataloader";
 import logger from "../../helpers/logger";
 import _ from "lodash";
+import { getModelDataLoader } from "../../helpers/dataloader";
 
 export type Product = BaseDocument & {
   code?: string;
@@ -46,13 +47,4 @@ productSchema.index(
 
 export const ProductModel = Mongo.model<Product>("Product", productSchema);
 
-export const ProductLoader = new DataLoader(
-  async (ids) => {
-    logger.info("id",{ids});
-    const products = await ProductModel.find({ _id: { $in: ids } });
-    const keyById = _.keyBy(products, "_id");
-
-    return ids.map((id) => _.get(keyById, id as string, null));
-  },
-  { cache: true }
-);
+export const ProductLoader = getModelDataLoader(ProductModel)

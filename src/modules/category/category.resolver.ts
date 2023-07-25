@@ -5,6 +5,7 @@ import { Context } from "../../helpers/graphql/context";
 import { categoryService } from "./category.service";
 import _ from "lodash";
 import { ProductLoader, ProductModel } from "../product/product.model";
+import { GraphqlServer } from "../../helpers/graphql/resolver";
 
 export default {
   Query: {
@@ -48,12 +49,6 @@ export default {
     },
   },
   Category: {
-    products: async (root: Category, args: any, context: any) => {
-      const { productIds } = root;
-      if (!productIds) return [];
-      return await ProductLoader.loadMany(
-        productIds.map((id) => id.toString())
-      );
-    },
+    products: GraphqlServer.loadMany(ProductLoader,"productIds")
   },
 };
