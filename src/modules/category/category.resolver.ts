@@ -1,9 +1,10 @@
+
 import { Category } from "./category.model";
 import { Context } from "../../helpers/graphql/context";
 
 import { categoryService } from "./category.service";
 import _ from "lodash";
-import { ProductModel } from "../product/product.model";
+import { ProductLoader, ProductModel } from "../product/product.model";
 
 export default {
   Query: {
@@ -47,9 +48,12 @@ export default {
     },
   },
   Category: {
-    products: async (root: any, args: any, context: any) => {
+    products: async (root: Category, args: any, context: any) => {
       const { productIds } = root;
-      return await ProductModel.find({ _id: { $in: productIds } });
+      if (!productIds) return [];
+      return await ProductLoader.loadMany(
+        productIds.map((id) => id.toString())
+      );
     },
   },
 };

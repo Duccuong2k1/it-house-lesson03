@@ -2,6 +2,9 @@ import { Document, Schema } from "mongoose";
 import { BaseDocument } from "../../base/baseModel";
 import { Mongo } from "../../helpers/mongo";
 import { Attribute, AttributeSchema } from "./attribute/attribute.graphql";
+import DataLoader from "dataloader";
+import logger from "../../helpers/logger";
+import _ from "lodash";
 
 export type Product = BaseDocument & {
   code?: string;
@@ -13,7 +16,7 @@ export type Product = BaseDocument & {
   categoryId?: string;
   view?: number;
   attributes?: Attribute[];
-  active?:boolean;
+  active?: boolean;
 };
 
 const productSchema = new Schema(
@@ -35,10 +38,21 @@ const productSchema = new Schema(
 );
 
 productSchema.index({ categoryId: 1 });
-productSchema.index({code:1},{unique:true})
+productSchema.index({ code: 1 }, { unique: true });
 productSchema.index(
   { name: "text", code: "text" },
   { weights: { name: 10, code: 3 } }
 );
 
 export const ProductModel = Mongo.model<Product>("Product", productSchema);
+
+export const ProductLoader = new DataLoader(
+  async (ids) => {
+    logger.info("id",{ids});
+    const products = await ProductModel.find({ _id: { $in: ids } });
+    const keyById = _.keyBy(products, "_id");
+
+    return ids.map((id) => _.get(keyById, id as string, null));
+  },
+  { cache: true }
+);

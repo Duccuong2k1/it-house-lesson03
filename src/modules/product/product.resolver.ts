@@ -3,7 +3,7 @@ import _ from "lodash";
 import { Context } from "../../helpers/graphql/context";
 
 import { productService } from "./product.service";
-import { CategoryModel } from "../category/category.model";
+import { CategoryLoader, CategoryModel } from "../category/category.model";
 
 
 export default {
@@ -59,7 +59,8 @@ export default {
   Product: {
     category: async (root: any, args: any, context: any) => {
       const { categoryId } = root;
-      return await CategoryModel.findById(categoryId);
+      if(!categoryId) return null;
+      return await CategoryLoader.load(categoryId.toString());
     },
   },
 };
