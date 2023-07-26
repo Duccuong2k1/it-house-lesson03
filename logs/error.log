@@ -1223,3 +1223,28 @@ AggregateError
 AggregateError
     at internalConnectMultiple (node:net:1102:18)
     at afterConnectMultiple (node:net:1620:5)
+[2023-07-26 10:40:50][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-26 11:07:37][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-26 11:08:40][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-26 11:24:12][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-26 14:27:18][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)

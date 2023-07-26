@@ -2,6 +2,9 @@ import { gql } from "apollo-server-express";
 import { Context } from "../../../helpers/graphql/context";
 import { ProductLikeModel } from "./productLike.model";
 import { Product } from "../product.model";
+import DataLoader from "dataloader";
+import { Types } from "mongoose";
+import _ from "lodash";
 
 export default {
   schema: gql`
@@ -12,7 +15,7 @@ export default {
       like: Int
     }
   `,
-  resolver: {
+  resolvers: {
     Mutation: {
       likeProduct: async (root: any, args: any, context: Context) => {
         context.auth(["ADMIN", "USER"]);
@@ -38,3 +41,15 @@ export default {
     },
   },
 };
+
+
+const ProductLikeLoader = new DataLoader<string , number>(async(ids)=>{
+  const objectIds = ids.map((id)=> new Types.ObjectId(id));
+  return await ProductLikeModel.aggregate([
+    {$match:{productId :{$in:objectIds}}},
+    {$group:{_id:"$productId",count:{$sum:1} }}
+  ]).then((res)=>{
+    const keyById = _.keyBy(res,"_id");
+    return ids.map((id)=> _.get(keyById,``))
+  })
+})

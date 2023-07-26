@@ -12,6 +12,6 @@ return  new DataLoader(
   
       return ids.map((id) => _.get(keyById, id as string, null)) as T[];
     },
-    { cache: true }
+    // { cache: true }
   );
 }

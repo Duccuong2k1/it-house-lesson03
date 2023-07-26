@@ -33,7 +33,7 @@ export default {
       isDefault:Boolean
     }
   `,
-  resolver: {
+  resolvers: {
    
   },
 };

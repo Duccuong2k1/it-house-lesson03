@@ -11,7 +11,7 @@ export default {
       <%= h.inflection.camelize(name, true) %>: Mixed
     }
   `,
-  resolver: {
+  resolvers: {
     Query: {
       <%= h.inflection.camelize(name, true) %>: async (root: any, args: any, context: Context) => {
         
