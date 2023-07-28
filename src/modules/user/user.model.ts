@@ -17,6 +17,7 @@ export type User = BaseDocument & {
   email?: string;
   signInProvider?: string;
   scopes: string[];
+  deviceTokens?:string;
 };
 
 const userSchema = new Schema(
@@ -30,6 +31,7 @@ const userSchema = new Schema(
     role: { type: String, required: true, enum: Object.values(UserRole) },
     signInProvider: { type: String },
     scopes: { type: [String] },
+    deviceTokens: { type: [String] ,default:[]},
   },
   {
     timestamps: true,

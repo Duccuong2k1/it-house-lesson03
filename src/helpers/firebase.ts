@@ -19,6 +19,7 @@ function initFirebaseApp() {
     client_x509_cert_url:
       "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-i7xsc%40ithouse-65fb9.iam.gserviceaccount.com",
     universe_domain: "googleapis.com",
+    appId: "1:33587464908:web:5243319c32913d25a79069",
   };
   const cert = admin.credential.cert(serviceAccount as ServiceAccount);
   const firebase = admin.initializeApp({ credential: cert });
