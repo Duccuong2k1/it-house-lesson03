@@ -11,6 +11,10 @@ export const ExcelUploader = multer({
             return cb(new Error("Only .xlsx file is allow"))
         }
         cb(null,true)
+    },
+    // limit size file no greaten than 10MB
+    limits:{
+        fileSize:1024 * 1024 * 10
     }
 })
 

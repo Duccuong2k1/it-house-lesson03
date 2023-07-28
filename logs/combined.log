@@ -1929,3 +1929,114 @@ AggregateError
 AggregateError
     at internalConnectMultiple (node:net:1102:18)
     at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:15:50][[32minfo[39m] api router start path /api
+[2023-07-28 11:19:23][[32minfo[39m] api router start path /api
+[2023-07-28 11:19:23][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:19:38][[32minfo[39m] api router start path /api
+[2023-07-28 11:19:38][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:20:19][[32minfo[39m] GRAPHQL-QUERY - -200 - 1.083 ms
+
+[2023-07-28 11:22:07][[32minfo[39m] already remove file
+[2023-07-28 11:22:38][[32minfo[39m] api router start path /api
+[2023-07-28 11:22:38][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:22:48][[32minfo[39m] already remove file
+[2023-07-28 11:26:40][[32minfo[39m] api router start path /api
+[2023-07-28 11:26:41][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:26:56][[32minfo[39m] already remove file
+[2023-07-28 11:32:09][[32minfo[39m] api router start path /api
+[2023-07-28 11:32:09][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:32:22][[32minfo[39m] api router start path /api
+[2023-07-28 11:32:22][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:32:38][[32minfo[39m] already remove file
+[2023-07-28 11:33:29][[32minfo[39m] api router start path /api
+[2023-07-28 11:34:02][[32minfo[39m] api router start path /api
+[2023-07-28 11:34:13][[32minfo[39m] api router start path /api
+[2023-07-28 11:34:21][[32minfo[39m] api router start path /api
+[2023-07-28 11:34:21][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:34:27][[32minfo[39m] already remove file
+[2023-07-28 11:34:45][[32minfo[39m] api router start path /api
+[2023-07-28 11:34:46][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:35:00][[32minfo[39m] already remove file
+[2023-07-28 11:37:00][[32minfo[39m] api router start path /api
+[2023-07-28 11:37:00][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:37:16][[32minfo[39m] api router start path /api
+[2023-07-28 11:37:16][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:37:19][[32minfo[39m] already remove file
+[2023-07-28 11:38:07][[32minfo[39m] GRAPHQL-QUERY - -200 - 1.602 ms
+
+[2023-07-28 11:38:17][[32minfo[39m] id
+{ "ids": [ "64be4e0f2109aa8198ce4c82" ] }
+[2023-07-28 11:38:17][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like category{name productIds}attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 560.898 ms
+
+[2023-07-28 11:38:30][[32minfo[39m] api router start path /api
+[2023-07-28 11:38:30][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:38:42][[32minfo[39m] api router start path /api
+[2023-07-28 11:38:42][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:38:47][[32minfo[39m] already remove file
+[2023-07-28 11:39:24][[32minfo[39m] api router start path /api
+[2023-07-28 11:39:24][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
+[2023-07-28 11:39:40][[32minfo[39m] id
+{ "ids": [ "64be4e0f2109aa8198ce4c82" ] }
+[2023-07-28 11:39:40][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like category{name productIds}attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 547.041 ms
+
+[2023-07-28 11:39:50][[32minfo[39m] already remove file
+[2023-07-28 11:39:58][[32minfo[39m] GRAPHQL-QUERY query GetAllProduct($q:QueryInput){getAllProduct(q:$q){data{id createdAt updatedAt name code description basePrice sellPrice images categoryId view like category{name productIds}attributes{name min max options{isDefault name price}}active}pagination{total limit page}}} -200 - 554.932 ms
+
+[2023-07-28 11:41:03][[32minfo[39m] api router start path /api
+[2023-07-28 11:41:03][[31merror[39m] redis connection error
+{ "code": "ECONNREFUSED" }
+AggregateError
+    at internalConnectMultiple (node:net:1102:18)
+    at afterConnectMultiple (node:net:1620:5)
